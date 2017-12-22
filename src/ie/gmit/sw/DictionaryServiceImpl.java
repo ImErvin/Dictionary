@@ -9,7 +9,7 @@ public class DictionaryServiceImpl extends UnicastRemoteObject implements Dictio
 	// Use of a default serialiser to pack and unpack remote object across network.
 	private static final long serialVersionUID = 999L;
 	private HashMap<String, String> hm = new HashMap<String, String>(); // Hashmap stores key/value pairs of words and definitions
-	private DictionaryLoader dl = new DictionaryLoader("dictionary.txt"); // Creates a new dictionaryloader
+	private DictionaryLoader dl = new DictionaryLoader("data/dictionary.txt"); // Creates a new dictionaryloader
 	
 	// Default constructor
 	public DictionaryServiceImpl() throws RemoteException{

@@ -2,9 +2,6 @@ package ie.gmit.sw;
 
 import java.rmi.*;
 import java.util.*;
-import java.util.concurrent.BlockingQueue;
-
-import org.eclipse.jdt.internal.compiler.batch.Main;
 
 public class Client{
 	// Member Variables
