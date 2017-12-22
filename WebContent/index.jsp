@@ -4,7 +4,7 @@
 	<tr>
 		<td valign="top">
 			
-			<form method="POST" action="DictionaryServlet" name="formGetDef">
+			<form method="POST" action="DictionaryServlet">
 				<fieldset>
 						<b>Search word:</b><br>
 						<input name="searchWord" type="text" />
