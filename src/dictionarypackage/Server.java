@@ -7,7 +7,7 @@ public class Server {
 	public static void main(String[] args) throws Exception{
 		
 		// Set an instance of Searchable to use the implementation
-		Searchable s = new SearchableImpl();
+		DictionaryService s = new DictionaryServiceImpl();
 		
 		//Start the RMI registry on port 1099
 		LocateRegistry.createRegistry(1099);
