@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>2017 Assignment - A JEE Application for Measuring Document Similarity.</title>
+		<title>A JEE Application for Retrieving Word Descriptions.</title>
 		<link rel="stylesheet" href="includes/basic.css">
 	</head>
 	
