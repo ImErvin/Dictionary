@@ -1,4 +1,4 @@
-package dictionarypackage;
+package ie.gmit.sw;
 
 import java.rmi.*; // Import RMI to use Remote and RemoteExcpetion
 

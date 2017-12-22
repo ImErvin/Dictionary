@@ -1,4 +1,4 @@
-package dictionarypackage;
+package ie.gmit.sw;
 
 import java.rmi.*; // Import rmi to use Naming
 import java.rmi.registry.LocateRegistry; // Import registry to create a new registry

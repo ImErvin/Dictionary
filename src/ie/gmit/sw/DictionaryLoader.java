@@ -1,4 +1,4 @@
-package dictionarypackage;
+package ie.gmit.sw;
 
 import java.io.*;
 import java.util.*;
