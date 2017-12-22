@@ -8,20 +8,18 @@ public class DictionaryServiceImpl extends UnicastRemoteObject implements Dictio
 	
 	// Use of a default serialiser to pack and unpack remote object across network.
 	private static final long serialVersionUID = 1L;
-	private HashMap<String, String> hm = new HashMap<String, String>();
-	private DictionaryLoader dl = new DictionaryLoader("dictionary.txt");
+	private HashMap<String, String> hm = new HashMap<String, String>(); // Hashmap stores key/value pairs of words and definitions
+	private DictionaryLoader dl = new DictionaryLoader("dictionary.txt"); // Creates a new dictionaryloader
 	
 	// Default constructor
 	public DictionaryServiceImpl() throws RemoteException{
-		hm = dl.loadDictionary();
+		hm = dl.loadDictionary(); // Delegate hashmap population to dictionaryloader
 	}
 	
 	@Override
 	public String lookup(String s) throws RemoteException{
-		
-		String res = hm.containsKey(s) ? hm.get(s) : "404 - Word not found";
-		
-		return res;
+		// Return the definition of the word if it exists - else return 404 message
+		return hm.containsKey(s) ? hm.get(s) : "404 - Word not found";
 	}
 	
 	

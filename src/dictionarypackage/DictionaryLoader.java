@@ -24,7 +24,7 @@ public class DictionaryLoader {
 				// Adapted from https://stackoverflow.com/questions/29061782/java-read-txt-file-to-hashmap-split-by
 				String[] parts = s.split(":");
 	            String key = parts[0].toLowerCase();
-	            String value = parts[1].toLowerCase();
+	            String value = parts[1];
 	            hm.put(key, value);
 			}
 			

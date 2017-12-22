@@ -13,7 +13,7 @@ public class Server {
 		LocateRegistry.createRegistry(1099);
 		
 		//Bind our remote object to the registry with the human-breadable name "searchable"
-		Naming.rebind("searchable", s);
+		Naming.rebind("dictionaryService", s);
 
 		//Print a message to standard output
 		System.out.println("Server ready.");

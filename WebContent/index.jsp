@@ -17,7 +17,7 @@
 					<b>The response:</b>
 					<b>asfsgsoigsmgkmsdmlgk</b>
 					<center>
-					<input name="searchWord" type="text" size="50"/>
+					<input name="doPost" type="text" size="50"/>
 					<input type="submit" value="Search">
 					</center>
 					<p/>
