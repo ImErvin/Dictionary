@@ -30,7 +30,7 @@ public class DictionaryLoader {
 			
 			br.close();
 			return hm;
-		}catch(Exception e)
+		}catch(IOException e)
 		{
 			System.out.println(e.toString());
 			return null;
