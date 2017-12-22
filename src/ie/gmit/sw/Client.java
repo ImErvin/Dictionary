@@ -6,7 +6,7 @@ import java.util.concurrent.BlockingQueue;
 
 import org.eclipse.jdt.internal.compiler.batch.Main;
 
-public class Client {
+public class Client{
 	private DictionaryService ds;
 	private LinkedHashMap<Integer, String> inQueue = new LinkedHashMap<Integer, String>();
 	private LinkedHashMap<Integer, String> outQueue = new LinkedHashMap<Integer, String>();
@@ -47,12 +47,13 @@ public class Client {
 			control = inQueue.containsKey(jobId) ? true : false;
 		}
 		
-		System.out.println("addinqueue " + s);
+		System.out.println("addinqueue " + jobId);
 		inQueue.put(jobId, s.toLowerCase());
 		return jobId;
 	}
 
 	public int getJobId() {
+		System.out.println(jobId);
 		return jobId;
 	}
 	

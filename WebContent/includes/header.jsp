@@ -12,3 +12,5 @@
 	<body>
 		<center>
 			</p>&nbsp;</p>&nbsp;</p>
+			<div class="animated bounce" style="font-size:32pt; font-family:arial; color:#1f1f1f1f; font-weight:bold">Dictionary Service</div>
+			</p>&nbsp;</p>&nbsp;</p>

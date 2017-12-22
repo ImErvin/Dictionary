@@ -19,7 +19,7 @@ public class DictionaryServiceImpl extends UnicastRemoteObject implements Dictio
 	@Override
 	public String lookup(String s) throws RemoteException{
 		// Return the definition of the word if it exists - else return 404 message
-		return hm.containsKey(s) ? hm.get(s) : "404 - Word not found";
+		return hm.containsKey(s) ? hm.get(s) : "Word not found";
 	}
 	
 	
